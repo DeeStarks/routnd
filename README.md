@@ -7,6 +7,12 @@ I wanted to be able to run several processes with the ability to quickly stop an
 
 ## Installation
 
+### Homebrew
+```bash
+brew tap deestarks/routnd
+brew install routnd
+```
+
 ### cURL
 ```bash
 curl -s https://raw.githubusercontent.com/deestarks/routnd/master/scripts/install.sh | bash
