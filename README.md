@@ -56,6 +56,12 @@ routnd list
 
 # Show logs for a process
 routnd logs --name my-process
+
+# Tail logs
+routnd logs --name my-process --tail 20
+
+# Tail logs and follow
+routnd logs --name my-process --tail 20 --follow
 ```
 
 ## Contributing
