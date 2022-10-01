@@ -30,7 +30,13 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+brews:
+  - name: routnd
+    tap:
+      owner: deestarks
+      name: homebrew-routnd
+      branch: master
+    folder: Formula
+    description: "A command line tool for running commands and processes in the background."
+    license: "MIT"
 
-# modelines, feel free to remove those if you don't want/use them:
-# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
-# vim: set ts=2 sw=2 tw=0 fo=cnqoj
